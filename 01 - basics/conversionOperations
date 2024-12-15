@@ -1,0 +1,60 @@
+let score="33abc"
+let value=null
+let bool=true
+console.log(typeof score);
+console.log(typeof (score));
+
+let valueInNumber=Number(score) //type-casting
+console.log(typeof valueInNumber);
+ let nullValue=Number(null)
+ let boolValue=Number(bool)
+console.log(valueInNumber); // NAN -NOT A NUMBER 
+console.log(nullValue); //CONVERTED NULL TO 0
+console.log(boolValue);
+let isLoggedIn=1;
+let booleanIsLoggedIn=Boolean(isLoggedIn)
+console.log(booleanIsLoggedIn);
+let emptyString=""
+console.log(Boolean(isLoggedIn));
+// 1<=> true and 0<=>false
+ let someNumber=33
+ let stringNumber=String(someNumber)
+ console.log(typeof stringNumber);
+ console.log(typeof someNumber);
+ //*****************OPERATIONS***************** 
+ let aValue=3
+ let negValue=-aValue
+//  console.log(negValue);
+//  console.log(2+2);
+//  console.log(2**2); //power
+//  console.log(2%2);
+//  console.log(2/2);
+//  console.log(2*2);
+
+let str1="hello"
+let str2=" wahab"
+console.log(str1+str2);
+console.log("1"+2);
+console.log(1+"2");
+console.log("1"+2+2);
+//
+console.log(2+2+"2");
+
+
+// POSTFIX AND PREFIX
+
+// postfix operator returns a value and then increments it.
+//example [postfix]
+
+let y=4;
+let z=y++
+console.log("Postfix Icrement of z:"+ z)
+console.log(y);
+
+// prefix operator increments a value and then returns it.
+//example [prefix]
+
+let t=4;
+let j=++y
+console.log("PreFix icrement of : "+j)
+console.log(t);
