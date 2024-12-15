@@ -56,5 +56,5 @@ console.log(y);
 
 let t=4;
 let j=++y
-console.log("PreFix icrement of : "+j)
+console.log("PreFix icrement of: "+j)
 console.log(t);
