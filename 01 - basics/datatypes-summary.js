@@ -40,9 +40,46 @@ console.log(myObj.name);
 console.log(anotherObj.name);
 
 
-const myFunc=function(){
-    console.log("Hello world");
-    
-}
-
+function myFunction() {
+    console.log("Hello, world!");
+  }
+  
 console.log(typeof myFunc);
+/*
+Return type of variables in JavaScript
+1) Primitive Datatypes
+       Number => number
+       String  => string
+       Boolean  => boolean
+       null  => object
+       undefined  =>  undefined
+       Symbol  =>  symbol
+       BigInt  =>  bigint
+
+2) Non-primitive Datatypes
+       Arrays  =>  object
+       Function  =>  function
+       Object  =>  object
+*/
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++
+
+// STACK (Primitive), HEAP (NON-PRIMITIVE)
+
+let myName="wahab"
+let anotherName=myName
+anotherName="awahab"
+console.log(anotherName);
+console.log(myName);
+
+
+let userID ={
+     email:"awahab@gmail.com",
+     pass:"123",
+}
+let anotherUserID=userID;
+anotherUserID.email="changed with original!"
+console.log(userID);
+console.log(anotherUserID);
+
