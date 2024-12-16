@@ -1,0 +1,39 @@
+
+let logEntries=[];
+let result=0;
+function operation(num1,operator,num2){
+
+    const initialResult=result;
+  result=doOperation(num1,operator,num2)
+logEntries.push({
+    previousResult:initialResult,
+    operator:operator,
+    result:result,
+})
+return result;
+}
+function doOperation(num1,operator,num2){
+    
+    switch(operator){
+        case '+':
+                
+       return num1+num2; 
+        case '-':
+            return num1+num2;
+            case '/':
+                return num1/num2;
+                case '*':
+                    return num1*num2;
+                    default:
+                        return "Invalid Operator!";
+    }
+}
+
+// console.log(operation(1,'+',6));
+
+// console.log(operation(1,'/',6));
+// console.log(operation(2,'*',7));
+// console.log("History: " + logEntries[0].previousResult); // Output: 0
+// console.log(logEntries);
+number="d"*"e";
+console.log(number==NaN);
