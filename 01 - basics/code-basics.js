@@ -18,7 +18,7 @@ function nameWithNumber(){
 }
 nameWithNumber()
 //conversion
-
+ number=new Number();
 function convertoInt(num1,num2){
 result=num1+parseInt(num2)
 return result

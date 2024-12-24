@@ -1,0 +1,10 @@
+// DIFFERENCE BETWEEN STATEMENT VS EXPRESSION
+
+// expression: something yields an value if assigned.
+
+// let x= 2>5? true: false  ---> statement
+
+
+// Statements ---> Something that cannot be assigned to any variable
+
+

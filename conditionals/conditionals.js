@@ -58,7 +58,7 @@ function login(){
 console.log(login());
 
 
-// Truthy and falsy values
+//################# Truthy and falsy values ##########################
 
 // let numberValue=2;
 // if(numberValue){   // The dataype is converted to 0 or 1 to represent true or false!
@@ -91,3 +91,6 @@ if(!str2){
 // # Non=empty string is treated as true
 // # Objs and Array always true!
 // # NAN , UNDEFINED & NULL --> FALSE
+let n=0;
+let counter=0;
+n+counter++;

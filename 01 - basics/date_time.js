@@ -8,3 +8,4 @@ const options={
     timeZoneName:'short',
 }
 console.log(new Intil.DateTimeFormat('en-US',options).format(date))
+

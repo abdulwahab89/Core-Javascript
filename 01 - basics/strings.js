@@ -16,7 +16,7 @@ const anotherString=value.slice(-4,4)
 console.log(anotherString);
 const newStringOne="        wahab       "
 console.log(newStringOne.trim());
-const url="https://hitesh.com/wahab%20baig"
+const url="https://website.com/wahab%20baig"
 console.log(url.replace('%20','-'))  
 console.log(
     url.includes('w'));

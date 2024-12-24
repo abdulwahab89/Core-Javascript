@@ -29,11 +29,10 @@ function doOperation(num1,operator,num2){
     }
 }
 
-// console.log(operation(1,'+',6));
+console.log(operation(1,'+',6));
 
-// console.log(operation(1,'/',6));
-// console.log(operation(2,'*',7));
-// console.log("History: " + logEntries[0].previousResult); // Output: 0
-// console.log(logEntries);
-number="d"*"e";
-console.log(number==NaN);
+console.log(operation(1,'/',6));
+console.log(operation(2,'*',7));
+console.log("History: " + logEntries[0].previousResult); // Output: 0
+console.log(logEntries);
+    
